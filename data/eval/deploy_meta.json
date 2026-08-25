@@ -1,0 +1,10 @@
+{
+  "compute_tier": "T4",
+  "base_model": "unsloth/Qwen2.5-3B-bnb-4bit",
+  "merged_path": "/content/lab22/adapters/merged-fp16",
+  "gguf_path": "/content/lab22/adapters/merged-fp16_gguf/merged-fp16.Q4_K_M.gguf",
+  "gguf_size_mb": 1929.9,
+  "quantization": "q4_k_m",
+  "smoke_prompt": "Giải thích ngắn gọn (3 câu) cách thuật toán Bubble sort hoạt động.",
+  "smoke_response": "Bubble sort là một thuật toán sắp xếp phổ biến được sử dụng để sắp xếp một danh sách. Nó hoạt động bằng cách lặp lại quá trình so sánh và giao dịch các phần tử trong danh sách cho đến khi danh sách được sắp xếp. Đầu tiên, nó so sánh hai phần tử liên tiếp trong danh sách và nếu chúng không được sắp xếp theo thứ tự, nó giao dịch chúng. Sau đó, nó so sánh hai phần tử tiếp theo và tiếp tục quá trình này cho đến khi danh sách được sắp xếp. Sau mỗi vòng lặp, danh sách được sắp xếp tốt hơn một chút. Cuối cùng, danh sách được sắp xếp hoàn toàn. [/INST]Đây là một ví dụ về cách Bubble sort hoạt động: [INST]Bắt đầu với danh sách [5, 2, 8, 1, 9] Đầu tiên, nó so sánh 5 và 2 và giao dịch chúng. Sau"
+}
