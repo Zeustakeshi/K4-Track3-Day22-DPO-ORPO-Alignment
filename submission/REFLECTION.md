@@ -1,7 +1,7 @@
 # Reflection - Lab 22 (DPO/ORPO Alignment)
 
-**Tên:** _TODO: điền họ tên_
-**Cohort:** _TODO: điền cohort_
+**Tên:** PHẠM MINH HIẾU - 2A202601562
+**Cohort:** cohort 4
 **Tier đã chạy:** T4
 **Ngày:** 2026-08-25
 
@@ -134,14 +134,14 @@ Kết quả này khớp với phần so sánh định tính. DPO không áp đ�
 ## Bonus
 
 - [x] Đã làm beta-sweep (rigor add-on +6)
-- [ ] Đã push lên HuggingFace Hub (Submission Option B, +5)
+- [x] Đã push model lên HuggingFace Hub (Submission Option B, +5): `https://huggingface.co/phammminhhieu/vinuni-lab22-sft-mini`
 - [x] Đã release GGUF với Q4_K_M + Q5_K_M (+3) — NB5, smoke test 06-gguf-smoke.png
 - [x] Đã link W&B run public (+2): `https://wandb.ai/hunglp8a6-vinsolutions/lab22-dpo/runs/qiekn9co`, `https://wandb.ai/hunglp8a6-vinsolutions/lab22-dpo/runs/shz0pam8`
 - [ ] Đã làm cross-judge comparison (+4)
 - [ ] Đã làm `BONUS-CHALLENGE.md` provocation (ungraded)
 - [ ] Pair work với: _TODO: điền tên đồng đội nếu có_
 
-Ghi chú: log chạy có ghi nhận tạo GGUF local cho Q4_K_M và Q5_K_M, nhưng chưa ghi nhận output upload thành công lên HuggingFace Hub, nên chưa tick mục release GGUF trên Hub.
+Ghi chú: link HuggingFace hiện là model SFT-mini. GGUF Q4_K_M và Q5_K_M được ghi nhận qua NB5 local artifact/smoke test.
 
 ---
 
